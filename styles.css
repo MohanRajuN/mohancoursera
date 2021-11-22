@@ -1,0 +1,92 @@
+header{
+	background-color: yellow;
+}
+#header-nav'{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.nav-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+.navbar-brand a: hover, .navbar-brand a:focus{
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+.container {
+	/*box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;*/
+	
+}
+@media (min-width: 1200px) {
+	.col-md-4 , .col-sm-6 , .col-xs-12{
+		background-color: grey;
+		color: pink;
+		box-shadow: 0 0 50px #3F0C1F;
+	    border: 2px solid #3F0C1F;
+	    padding: 10px;
+	    border-radius: 25px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+	.col-md-4 , .col-sm-6 , .col-xs-12{
+		background-color: grey;
+		color: pink;
+		box-shadow: 0 0 50px #3F0C1F;
+	    border: 2px solid #3F0C1F;
+	    padding: 10px;
+	    border-radius: 25px;
+	}
+}
+@media (max-width: 767px) {
+	.col-md-4 , .col-sm-6 , .col-xs-12{
+		background-color: grey;
+		color: pink;
+		box-shadow: 0 0 50px #3F0C1F;
+	    border: 2px solid #3F0C1F;
+	    padding: 10px;
+	    border-radius: 25px;
+	}
+}
+.sub{
+    font-size: 25px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	/*box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;*/
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	padding-bottom: 25px;
+}
+				     /*<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				     	<span class="sr-only">Toggle navigation</span>
+				     	<span class="icon-bar">chicken</span>
+				     	<span class="icon-bar">beef</span>
+				     	<span class="icon-bar">sushi</span>
+				     	
+				     </button>*/
